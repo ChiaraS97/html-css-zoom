@@ -52,7 +52,7 @@ img {
 
 header {
     background-color: var(--primary-color);
-    height: 9vh;
+    height: 8vh;
     width: 100%;
     position: relative;
 }
@@ -116,7 +116,7 @@ main span {
 /* footer  */
 
 footer {
-    height: 7.5vh;
+    height: 8.5vh;
     color: var(--text);
     background-color: var(--bg-footer)
     
@@ -124,11 +124,12 @@ footer {
 
 .icon {
     padding: 0 1rem;
+    margin: .5rem 0;
     cursor: pointer;
 }
 
 div.icon .fa-solid {
     font-size: 1.5rem;
-    margin-top: .7rem;
+    
 }
 
