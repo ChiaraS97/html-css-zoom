@@ -29,6 +29,10 @@
     justify-content: center;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 img {
     width: 100%;
 }
@@ -37,7 +41,7 @@ img {
 
 header {
     background-color: var(--primary-color);
-    height: 10vh;
+    height: 6.5vh;
     width: 100%;
     position: relative;
 }
@@ -62,6 +66,10 @@ header button {
     margin-right: .5rem;
 }
 
+.column {
+    flex-direction: column;
+}
+
 /* main  */
 
 main {
@@ -83,13 +91,32 @@ main span {
     padding: .2rem .3rem;
     position: absolute;
     left: .15rem;
-    bottom: .3rem;
+    bottom: .7rem;
 }
 
 .card {
     width: calc(100% / 7);
-    padding: .3rem .15rem;
+    padding: 0 .25rem .7rem 0;
     position: relative;
     
 }
+
+/* footer  */
+
+footer {
+    height: 6.5vh;
+    color: var(--text);
+    background-color: var(--primary-color);
+    
+}
+
+.icon {
+    display: inline-block;
+    
+    
+}
+
+/* i, footer span {
+    display: block;
+} */
 
