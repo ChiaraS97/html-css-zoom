@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: .8rem;
 }
 
 :root {
@@ -21,10 +22,15 @@
 
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.small-text {
-    font-size: .8rem;
+.j-content {
+    justify-content: center;
+}
+
+img {
+    width: 100%;
 }
 
 /* Header  */
@@ -40,7 +46,7 @@ header div {
     min-width: 7%;
     position: absolute; 
     top: 0;
-    right: 0;
+    right: .2rem;
     margin-top: .3rem;
     vertical-align: middle;
 }
@@ -54,6 +60,36 @@ header button {
 }
 .view {
     margin-right: .5rem;
+}
+
+/* main  */
+
+main {
+    background-color: var(--primary-color);
+}
+
+.container {
+    width: 80%;
+    
+}
+
+img {
+    display: block;
+}
+
+main span {
+    color: var(--text);
+    background-color:rgba(74, 74, 74, 0.5);
+    padding: .2rem .3rem;
+    position: absolute;
+    left: .15rem;
+    bottom: .3rem;
+}
+
+.card {
+    width: calc(100% / 7);
+    padding: .3rem .15rem;
+    position: relative;
     
 }
 
