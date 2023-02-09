@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #000000;
+    --text: #ffffff;
+    --share: #4bc800;
+    --end: #ff0000;
+    --bg-footer: #222222;
+    --details: #4a4a4a;
+
+}
+
 .wrapper {
     height: 100vh;
     width: 100%;
